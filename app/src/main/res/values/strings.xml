@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ingenious</string>
+
+    <!-- transaction dialog -->
+    <string name="btn_dialog_add">Add</string>
+    <string name="btn_dialog_deduct">Deduct</string>
+    <string name="tv_dialog_add">Add Amount</string>
+    <string name="tv_dialog_deduct">Deduct Amount</string>
+    <string name="tv_default_currency_symbol">£</string>
+    <string name="et_hundreds_hint">0</string>
+    <string name="tv_currency_divider">.</string>
+    <string name="et_units_hint">00</string>
+</resources>

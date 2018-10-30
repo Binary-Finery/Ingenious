@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_sumbmit_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_hundreds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:fontFamily="@font/comfortaa"
+            android:background="@android:color/transparent"
+            android:textSize="40sp"
+            android:maxLength="5"
+            android:imeOptions="actionNext"
+            android:hint="@string/et_hundreds_hint"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text="@string/tv_currency_divider"
+            android:fontFamily="@font/comfortaa"/>
+
+        <EditText
+            android:id="@+id/et_units"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa"
+            android:background="@android:color/transparent"
+            android:textSize="40sp"
+            android:inputType="number"
+            android:imeOptions="actionDone"
+            android:hint="@string/et_units_hint"
+            android:maxLength="2" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submit_dialog_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa"
+        android:layout_gravity="end"/>
+
+</LinearLayout>
